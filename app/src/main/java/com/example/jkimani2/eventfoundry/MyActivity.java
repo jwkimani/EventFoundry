@@ -62,14 +62,14 @@ public class MyActivity extends Activity
                 mTitle = "Browse";
                 break;
             case 2:
-                mTitle = getString(R.string.title_section4);
+                mTitle = getString(R.string.title_section1);
                 break;
             case 3:
                 ActionBar  a = getActionBar();
-                a.setDisplayShowTitleEnabled(false);
+                a.hide();
                 break;
             case 4:
-                mTitle = "Sign In";
+                mTitle = "";
         }
     }
 

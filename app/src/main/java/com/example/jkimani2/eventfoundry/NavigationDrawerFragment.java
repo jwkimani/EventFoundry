@@ -248,11 +248,15 @@ public class NavigationDrawerFragment extends Fragment {
         if (mDrawerToggle.onOptionsItemSelected(item)) {
             return true;
         }
-
-        if (item.getItemId() == R.id.action_example) {
-            Toast.makeText(getActivity(), "Example action.", Toast.LENGTH_SHORT).show();
+        if (item.getItemId() == R.id.action_share) {
+            Toast.makeText(getActivity(), "Please share as much as you want", Toast.LENGTH_SHORT).show();
             return true;
         }
+        if (item.getItemId() == R.id.action_search){
+            Toast.makeText(getActivity(), "There is nothing to search right now", Toast.LENGTH_SHORT).show();
+            return true;
+        }
+
 
         return super.onOptionsItemSelected(item);
     }
