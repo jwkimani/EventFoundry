@@ -59,17 +59,19 @@ public class MyActivity extends Activity
     public void onSectionAttached(int number) {
         switch (number) {
             case 1:
-                mTitle = "Browse";
+                ActionBar actionBar = getActionBar();
+                actionBar.setDisplayShowTitleEnabled(false);
+                mTitle = "Log In";
                 break;
             case 2:
-                mTitle = getString(R.string.title_section1);
+                mTitle = "Browse";
                 break;
             case 3:
-                ActionBar  a = getActionBar();
-                a.hide();
+                mTitle = "My Tickets";
                 break;
             case 4:
-                mTitle = "";
+                mTitle = "Saved Events";
+                break;
         }
     }
 
