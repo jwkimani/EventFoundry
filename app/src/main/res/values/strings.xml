@@ -5,6 +5,7 @@
     <string name="title_section1">Discover</string>
     <string name="title_section2">My Tickets</string>
     <string name="title_section3">Saved Events</string>
+    <string name="title_section4">Sign In</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="action_example">Example action</string>
